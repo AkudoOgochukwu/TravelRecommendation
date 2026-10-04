@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Boom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+
+    <!-- Navigation with search integrated -->
+    <header class="navbar">
+        <div class="logo">Travel Boom</div>
+        <nav>
+            <a href="travel_recommendation.html">Home</a>
+            <a href="travel_recommendationabout.html">About Us</a>
+            <a href="travel_recommendationcontact.html">Contact Us</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search destinations, temples, beaches...">
+            <button id="searchBtn">Search</button>
+            <button id="clearBtn">Clear</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Want Memories That <span>Last a Lifetime?</span></h1>
+        <p>We turn your travel dreams into your next itinerary!</p>
+
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook">✈️</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+
+        <button id="bookBtn">Book Now</button>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results">
+        <!-- JS injects cards here -->
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
